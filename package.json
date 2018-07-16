@@ -1,15 +1,17 @@
 {
-  "name": "plone-react-example",
-  "version": "0.1.0",
-  "dependencies": {
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "plone-react": "0.5.0"
-  },
+  "name": "my-plone-react-app",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
-    "dev": "plone-react dev",
     "start": "plone-react start",
     "build": "plone-react build",
     "test": "plone-react test"
+  },
+  "dependencies": {
+    "@plone/plone-react": "^0.6.0",
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1"
   }
 }
